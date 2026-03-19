@@ -67,6 +67,10 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiX,
+  SiSass,
+  SiHeroku,
+  SiVitest,
+  SiVite,
 } from "react-icons/si";
 
 export const Icons = {
@@ -120,6 +124,10 @@ export const Icons = {
   netlify: SiNetlify,
   nextjs: SiNextdotjs,
   nodejs: SiNodedotjs,
+  sass: SiSass,
+  heroku: SiHeroku,
+  vitest: SiVitest,
+  vite: SiVite,
   react: SiReact,
   redux: SiRedux,
   socketio: SiSocketdotio,
@@ -163,10 +171,10 @@ export const Icons = {
           className="tick"
           fill="none"
           stroke="currentColor"
-          stroke-width="4"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-miterlimit="10"
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeMiterlimit="10"
           d="M14 27l5.917 4.917L34 17"
         />
       </svg>

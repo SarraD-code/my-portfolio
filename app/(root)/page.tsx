@@ -22,11 +22,12 @@ import { featuredSkills } from "@/config/skills";
 import { getFeaturedBlogs } from "@/lib/blogs";
 import { cn } from "@/lib/utils";
 import profileImg from "@/public/profile-img.jpg";
+import Typewriter from "@/components/common/Typewriter";
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
   description:
-    "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions.",
+    "Sarra Drine - Full Stack Engineer working at the intersection of user experience and scalable architecture. Expert in React, Node, and MySQL, I build end-to-end solutions where performance meets stability through Vitest.",
   alternates: {
     canonical: siteConfig.url,
   },
@@ -41,7 +42,7 @@ export default function IndexPage() {
     name: siteConfig.authorName,
     url: siteConfig.url,
     image: siteConfig.ogImage,
-    jobTitle: "Applied AI Engineer",
+    jobTitle: "Full Stack Engineer",
     sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
@@ -49,7 +50,7 @@ export default function IndexPage() {
   const softwareSchema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "Next.js Portfolio Template",
+    name: "Sarra Drine Next.js Portfolio",
     applicationCategory: "DeveloperApplication",
     operatingSystem: "Web",
     offers: {
@@ -78,34 +79,27 @@ export default function IndexPage() {
       />
 
       <section className="space-y-6 pb-8 pt-6 mb-0 md:pb-12 md:py-20 lg:py-32 h-screen flex items-center">
-        <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center -mt-20">
+        <div className="container flex max-w-[64rem] flex-col items-center gap-2.5 text-center -mt-20">
           <Image
             src={profileImg}
             height={100}
             width={100}
             sizes="100vw"
             className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="Naman Barkiya - Applied AI Engineer Portfolio"
+            alt="Sarra Drine - Full Stack Engineer Portfolio"
             priority
           />
           <AnimatedText
             as="h1"
             delay={0.2}
-            className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
+            className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
           >
-            Naman Barkiya
+            Sarra Drine
           </AnimatedText>
-          <AnimatedText
-            as="h3"
-            delay={0.4}
-            className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
-          >
-            Applied AI Engineer
-          </AnimatedText>
+          <Typewriter text="Full Stack Software Engineer" />
           <div className="mt-4 max-w-[42rem] text-center">
             <p className="leading-normal text-muted-foreground text-sm sm:text-base">
-              Software engineer working at the intersection of AI, data, and
-              scalable software systems.
+              Full Stack Engineer blending user experience with scalable architecture. Expert in React, Node, MySQL, and Vitest.
             </p>
           </div>
 
@@ -120,7 +114,7 @@ export default function IndexPage() {
                 <Icons.post className="w-4 h-4 mr-2" /> Resume
               </Link>
             </AnimatedText>
-            <AnimatedText delay={0.8}>
+            {/* <AnimatedText delay={0.8}>
               <Link
                 href={"/contact"}
                 rel="noreferrer"
@@ -130,11 +124,11 @@ export default function IndexPage() {
                     size: "lg",
                   })
                 )}
-                aria-label="Contact Naman Barkiya"
+                aria-label="Contact Sarra Drine"
               >
                 <Icons.contact className="w-4 h-4 mr-2" /> Contact
               </Link>
-            </AnimatedText>
+            </AnimatedText> */}
           </div>
           <AnimatedText delay={1.2}>
             <Icons.chevronDown className="h-6 w-6 mt-10" />
@@ -183,7 +177,7 @@ export default function IndexPage() {
           </Link>
         </AnimatedText>
       </AnimatedSection>
-      <AnimatedSection
+      {/* <AnimatedSection
         direction="up"
         className="container space-y-6 py-10 my-14"
         id="experience"
@@ -290,10 +284,10 @@ export default function IndexPage() {
             </Button>
           </Link>
         </AnimatedText>
-      </AnimatedSection>
+      </AnimatedSection> */}
       <AnimatedSection
         direction="up"
-        className="container space-y-6 bg-muted py-10 my-14"
+        className="container space-y-6 py-10 my-14"
         id="skills"
       >
         <div className="mx-auto flex max-w-[58rem] flex-col items-center space-y-4 text-center">

@@ -60,7 +60,13 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "Sass"
+  | "Vite"
+  | "Vitest"
+  | "Heroku"
+  | "Axios"
+  | "React Router DOM";
 
 export type ValidCategory =
   | "Full Stack"
@@ -77,8 +83,8 @@ export type ValidPages =
   | "home"
   | "skills"
   | "projects"
-  | "experience"
-  | "contact"
-  | "contributions"
-  | "resume"
-  | "blogs";
+  | "resume";
+  // | "contact";
+  // | "experience"
+  // | "contributions"
+  // | "blogs";
