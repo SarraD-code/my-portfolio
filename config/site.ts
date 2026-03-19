@@ -1,13 +1,13 @@
 export const siteConfig = {
-  name: "Naman Barkiya - Applied AI Engineer",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Sarra Drine - Full Stack Engineer",
+  authorName: "Sarra Drine",
+  username: "SarraD-code",
   description:
-    "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
-  url: "https://nbarkiya.xyz",
+    "Sarra Drine - Full Stack Engineer working at the intersection of user experience and scalable architecture. Expert in React, Node, and MySQL, I build end-to-end solutions where performance meets stability through Vitest.",
+  url: "http://sarradrine.dev",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    twitter: "https://x.com",
+    github: "https://github.com/SarraD-code",
     templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
   },
   ogImage:
@@ -17,9 +17,8 @@ export const siteConfig = {
   logoIcon:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
-    "Naman Barkiya",
-    "Applied AI Engineer",
-    "AI Engineer",
+    "Sarra Drine",
+    "Full Stack Engineer",
     "Software Engineer",
     "Full Stack Developer",
     "Machine Learning",
