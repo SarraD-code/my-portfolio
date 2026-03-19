@@ -38,14 +38,14 @@ export const pagesConfig: PagesConfig = {
       description: "Sarra Drine's projects in building web applications.",
     },
   },
-  // contact: {
-  //   title: "Contact",
-  //   description: "Let's connect and explore collaborations.",
-  //   metadata: {
-  //     title: "Contact",
-  //     description: "Contact Sarra Drine.",
-  //   },
-  // },
+  contact: {
+    title: "Contact",
+    description: "Let's connect and explore collaborations.",
+    metadata: {
+      title: "Contact",
+      description: "Contact Sarra Drine.",
+    },
+  },
   resume: {
     title: "Resume",
     description: "Sarra Drine's resume.",
@@ -54,32 +54,32 @@ export const pagesConfig: PagesConfig = {
       description: "Sarra Drine's resume.",
     },
   },
-  // contributions: {
-  //   title: "Contributions",
-  //   description: "Open-source contributions and community involvement.",
-  //   metadata: {
-  //     title: "Contributions",
-  //     description:
-  //       "Sarra Drine's open-source contributions and community involvement.",
-  //   },
-  // },
-  // blogs: {
-  //   title: "Blogs",
-  //   description:
-  //     "Thoughts on AI, software engineering, and building in public.",
-  //   metadata: {
-  //     title: "Blogs",
-  //     description:
-  //       "Sarra Drine's blog — thoughts on AI, software engineering, and building in public.",
-  //   },
-  // },
-  // experience: {
-  //   title: "Experience",
-  //   description: "Professional journey and career timeline.",
-  //   metadata: {
-  //     title: "Experience",
-  //     description:
-  //       "Sarra Drine's professional journey and experience timeline.",
-  //   },
-  // },
+  contributions: {
+    title: "Contributions",
+    description: "Open-source contributions and community involvement.",
+    metadata: {
+      title: "Contributions",
+      description:
+        "Sarra Drine's open-source contributions and community involvement.",
+    },
+  },
+  blogs: {
+    title: "Blogs",
+    description:
+      "Thoughts on AI, software engineering, and building in public.",
+    metadata: {
+      title: "Blogs",
+      description:
+        "Sarra Drine's blog — thoughts on AI, software engineering, and building in public.",
+    },
+  },
+  experience: {
+    title: "Experience",
+    description: "Professional journey and career timeline.",
+    metadata: {
+      title: "Experience",
+      description:
+        "Sarra Drine's professional journey and experience timeline.",
+    },
+  },
 };

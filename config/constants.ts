@@ -83,8 +83,8 @@ export type ValidPages =
   | "home"
   | "skills"
   | "projects"
-  | "resume";
-  // | "contact";
-  // | "experience"
-  // | "contributions"
-  // | "blogs";
+  | "resume"
+  | "contact"
+  | "experience"
+  | "contributions"
+  | "blogs";
