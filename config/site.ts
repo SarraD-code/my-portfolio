@@ -4,7 +4,7 @@ export const siteConfig = {
   username: "SarraD-code",
   description:
     "Sarra Drine - Full Stack Engineer working at the intersection of user experience and scalable architecture. Expert in React, Node, and MySQL, I build end-to-end solutions where performance meets stability through Vitest.",
-  url: "http://sarradrine.dev",
+  url: "https://sarradrine.com",
   links: {
     twitter: "https://x.com",
     github: "https://github.com/SarraD-code",
