@@ -40,7 +40,7 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
               <ModeToggle />
             </div>
           </MainNav>
-          <nav className="flex items-center">
+          <nav className="flex items-center md:gap-3">
             {SocialLinks.map((item, ind) => (
                 <CustomTooltip icon={item.icon} text={item.username} key={ind}>
                   <Link

@@ -255,7 +255,10 @@
     @apply border-border;
   }
 
-  html,
+  html {
+    overflow-y: scroll;
+  }
+
   body {
     overflow-x: hidden;
   }
