@@ -71,6 +71,11 @@ import {
   SiHeroku,
   SiVitest,
   SiVite,
+  SiGit,
+  SiReactrouter,
+  SiVercel,
+  SiFramer,
+  SiPython
 } from "react-icons/si";
 
 export const Icons = {
@@ -133,6 +138,11 @@ export const Icons = {
   socketio: SiSocketdotio,
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,
+  git: SiGit,
+  reactrouter: SiReactrouter,
+  vercel: SiVercel,
+  framer: SiFramer,
+  python: SiPython,
   gmail: SiGmail,
   twitter: SiX,
   linkedin: SiLinkedin,

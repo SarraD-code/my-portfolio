@@ -113,10 +113,54 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.heroku,
   },
+  {
+    name: "Git",
+    description:
+      "Track, manage, and collaborate on code changes with the essential distributed version control system.",
+    rating: 5,
+    icon: Icons.git,
+  },
+  {
+    name: "React Router",
+    description:
+      "Manage navigation and build single-page applications with seamless, dynamic routing using React's declarative library.",
+    rating: 5,
+    icon: Icons.reactrouter,
+  },
+  {
+    name: "Vercel",
+    description:
+      "Deploy and scale frontend applications instantly with the high-performance, cloud platform for modern web frameworks.",
+    rating: 5,
+    icon: Icons.vercel
+  },
+  {
+    name: "Material UI",
+    description:
+      "Build beautiful and consistent user interfaces faster with the comprehensive library of customizable React components.",
+    rating: 4,
+    icon: Icons.mui
+  },
+  {
+    name: "Framer Motion",
+    description:
+      "Bring user interfaces to life with smooth, production-ready animations using a powerful motion library for React.",
+    rating: 4,
+    icon: Icons.framer
+  },
+  {
+    name: "Python",
+    description:
+      "Build scalable backend services, APIs, and automation scripts with the versatile, high-level programming language.",
+    rating: 4,
+    icon: Icons.python
+  },
 ];
 
 export const skills = skillsUnsorted
   .slice()
   .sort((a, b) => b.rating - a.rating);
 
-export const featuredSkills = skills.slice(0, 6);
+// export const featuredSkills = skills.slice(0, 6);
+export const featuredSkills = skills;
+

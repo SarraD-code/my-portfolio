@@ -66,7 +66,7 @@ export type ValidSkills =
   | "Vitest"
   | "Heroku"
   | "Axios"
-  | "React Router DOM";
+  | "React Router";
 
 export type ValidCategory =
   | "Full Stack"
