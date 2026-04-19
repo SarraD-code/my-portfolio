@@ -20,9 +20,9 @@ export const routesConfig: any = {
     //   title: "Blogs",
     //   href: "/blogs",
     // },
-    // {
-    //   title: "Contact",
-    //   href: "/contact",
-    // },
+    {
+      title: "Contact",
+      href: "/contact",
+    },
   ],
 };
