@@ -83,7 +83,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Node.js", "express.js", "MySQL"],
     startDate: new Date("2026-02-27"),
     endDate: new Date("2026-03-19"),
-    companyLogoImg: "/projects/gogimail/backend-4.png",
+    companyLogoImg: "/projects/gogimail/backend.svg",
     pagesInfoArr: [
       // {
       //   title: "Ingestion & Retrieval",
@@ -170,7 +170,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Node.js", "express.js", "MySQL"],
     startDate: new Date("2026-02-04"),
     endDate: new Date("2026-02-27"),
-    companyLogoImg: "/projects/instock/backend-4.png",
+    companyLogoImg: "/projects/instock/backend.svg",
     pagesInfoArr: [
       // {
       //   title: "Card Views",

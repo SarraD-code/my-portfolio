@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ReactNode } from "react";
+import { ReactNode, useEffect } from "react";
 
 interface ClientPageWrapperProps {
   children: ReactNode;
@@ -23,6 +23,10 @@ const pageVariants = {
 };
 
 export const ClientPageWrapper = ({ children }: ClientPageWrapperProps) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <motion.div
       initial="initial"

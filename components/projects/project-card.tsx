@@ -13,12 +13,13 @@ interface ProjectCardProps {
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div className="relative p-6 w-full bg-background border border-border rounded-lg h-full flex flex-col">
-      <div className="relative w-full h-[200px] flex-shrink-0">
+      <div className="relative w-full h-[200px] flex-shrink-0 overflow-hidden rounded-lg">
         <Image
-          className="rounded-lg border border-border object-cover"
+          className="object-cover"
           src={project.companyLogoImg}
           alt="img"
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
       </div>
       <div className="pt-5 space-y-3 flex flex-col flex-grow">

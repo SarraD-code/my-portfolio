@@ -18,7 +18,6 @@ interface ProjectPageProps {
   }>;
 }
 
-const githubUsername = "SarraD-code";
 
 export default async function Project({ params }: ProjectPageProps) {
   const { projectId } = await params;
@@ -94,7 +93,7 @@ export default async function Project({ params }: ProjectPageProps) {
         alt={project.companyName}
         width={720}
         height={405}
-        className="my-8 rounded-md border bg-muted transition-colors"
+        className="my-8 w-full h-auto rounded-md border bg-muted transition-colors"
         priority
       />
 
@@ -134,7 +133,7 @@ export default async function Project({ params }: ProjectPageProps) {
                   alt={img}
                   width={720}
                   height={405}
-                  className="my-4 rounded-md border bg-muted transition-colors"
+                  className="my-4 w-full h-auto rounded-md border bg-muted transition-colors"
                   priority
                 />
               ))}
