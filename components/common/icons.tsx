@@ -43,6 +43,9 @@ import {
   HiOutlineLink,
 } from "react-icons/hi";
 import { IoIosGitBranch } from "react-icons/io";
+import { FaJava, FaAws } from "react-icons/fa";
+import { RiRouteFill, RiRefreshFill, RiNodeTree } from "react-icons/ri";
+import { DiScrum } from "react-icons/di";
 import {
   SiAmazonwebservices,
   SiAngular,
@@ -75,7 +78,10 @@ import {
   SiReactrouter,
   SiVercel,
   SiFramer,
-  SiPython
+  SiPython,
+  SiGithub,
+  SiWebpack,
+  SiJira
 } from "react-icons/si";
 
 export const Icons = {
@@ -143,6 +149,15 @@ export const Icons = {
   vercel: SiVercel,
   framer: SiFramer,
   python: SiPython,
+  java: FaJava,
+  rest: RiRouteFill,
+  aws: FaAws,
+  github: SiGithub,
+  webpack: SiWebpack,
+  jira: SiJira,
+  scrum: DiScrum,
+  cicd: RiRefreshFill,
+  microservices: RiNodeTree,
   gmail: SiGmail,
   twitter: SiX,
   linkedin: SiLinkedin,

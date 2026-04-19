@@ -67,7 +67,12 @@ export type ValidSkills =
   | "Heroku"
   | "Axios"
   | "React Router"
-  | "React Router DOM";
+  | "React Router DOM"
+  | "REST API"
+  | "GitHub"
+  | "Jira"
+  | "Agile/Scrum"
+  | "Microservices";
 
 export type ValidCategory =
   | "Full Stack"

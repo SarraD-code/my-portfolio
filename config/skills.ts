@@ -155,6 +155,69 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.python
   },
+  {
+    name: "Java",
+    description:
+      "Develop robust, cross-platform applications with the object-oriented language engineered for reliability and scalability at enterprise scale.",
+    rating: 4,
+    icon: Icons.java
+  },
+  {
+    name: "REST API",
+    description:
+      "Enable seamless communication between frontend and backend services with the architectural style that uses standard HTTP methods to create, read, update, and delete resources.",
+    rating: 5,
+    icon: Icons.rest
+  },
+  {
+    name: "AWS",
+    description:
+      "Build and deploy scalable applications with the world's most comprehensive and widely adopted cloud platform, offering compute, storage, and database solutions on demand.",
+    rating: 3,
+    icon: Icons.aws
+  },
+  {
+    name: "GitHub",
+    description:
+      "Collaborate on code and manage software development with the industry-leading platform for version control and team-based project hosting.",
+    rating: 5,
+    icon: Icons.github
+  },
+  {
+    name: "Webpack",
+    description:
+      "Bundle and optimize modern web applications with the powerful static module bundler that transforms and packages assets for production.",
+    rating: 4,
+    icon: Icons.webpack
+  },
+  {
+    name: "Jira",
+    description:
+      "Streamline agile project management and track development workflows with the powerful tool for issue tracking, sprint planning, and team collaboration.",
+    rating: 5,
+    icon: Icons.jira
+  },
+  {
+    name: "Agile/Scrum",
+    description:
+      "Manage agile software development with the iterative framework that organizes work into time-boxed sprints for continuous delivery and adaptive planning.",
+    rating: 5,
+    icon: Icons.scrum
+  },
+  {
+    name: "CI/CD",
+    description:
+      "Automate and streamline software delivery with the practice of automatically integrating code changes and deploying them through a reliable, automated pipeline.",
+    rating: 4,
+    icon: Icons.cicd
+  },
+  {
+    name: "Microservices",
+    description:
+      "Architect scalable and resilient applications by decomposing them into small, independent services that communicate over a network.",
+    rating: 4,
+    icon: Icons.microservices
+  },
 ];
 
 export const skills = skillsUnsorted
