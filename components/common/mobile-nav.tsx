@@ -3,7 +3,6 @@ import Link from "next/link";
 import * as React from "react";
 
 import { siteConfig } from "@/config/site";
-import { useLockBody } from "@/hooks/use-lock-body";
 import { cn } from "@/lib/utils";
 
 interface MobileNavProps {
@@ -19,8 +18,6 @@ const norican = Norican({
 });
 
 export function MobileNav({ items, children }: MobileNavProps) {
-  useLockBody();
-
   return (
     <div
       className={cn(
